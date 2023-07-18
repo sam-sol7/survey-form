@@ -8,10 +8,23 @@
   <body>
     <form id="survey-form">
       <h1 id="title">Survey Form</h1>
-      <p id="description">Sample survey format</p>
+      <p id="description">Simple survey format</p>
       <label id="name-label"> Name: <input id="name" type="text" placeholder="Enter your name" required></label>
       <label id="email-label"> Email: <input id="email" type="email" placeholder="Enter your Email" required></label>
       <label id="number-label"> Number: <input id="number" type="number" placeholder="Enter a number" min="0" max="999" required></label>
+      <select name="options" id="dropdown">
+        <option value="dropdown-option-1">Dropdown Option 1</option>
+        <option value="dropdown-option-2">Dropdown Option 2</option>
+        <option value="dropdown-option-3">Dropdown Option 3</option>
+      </select>
+      <label><input value="radio-option-1" name="radio-option" type="radio">Radio Option 1</label>
+      <label><input value="radio-option-2" name="radio-option" type="radio">Radio Option 2</label>
+      <label><input value="radio-option-3" name="radio-option" type="radio">Radio Option 3</label>
+      <label><input value="checkbox-option-1" type="checkbox">Checkbox Option 1</label> 
+      <label><input value="checkbox-option-2" type="checkbox">Checkbox Option 2</label> 
+      <label><input value="checkbox-option-3" type="checkbox">Checkbox Option 3</label> 
+      <textarea placeholder="Insert any aditional coments"></textarea>
+      <input type="submit" id="submit">
     </form>
   </body>
 <html>
