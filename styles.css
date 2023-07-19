@@ -3,15 +3,17 @@
     font-weight: 400;
     line-height: 1.4;
     color: white;
+    font-size: 1.125rem;
+    box-sizing: border-box;
 }
-  
+
 body {
     height: 100%;
     width: 100%;
     margin: 0%;
     background-image: url('https://3.bp.blogspot.com/-lKmpCQrxm_w/T3qVkCCceeI/AAAAAAAABug/jX2doJG1vA8/s1600/Beautiful+Evening+Photographs.jpg');
 }
-  
+
 #container {
     max-width: 720px;
     margin: 50px auto 0px auto;
@@ -25,6 +27,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px;
 }
 
 #title {
@@ -39,4 +42,16 @@ body {
 
 #submit {
     color: black;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    display: block;
+    height: 2.375rem;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 1rem;
 }
